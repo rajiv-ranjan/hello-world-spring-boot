@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class Example {
 
-	@RequestMapping("/hello-springboot")
+	@RequestMapping("/second-springboot")
 	String home() {
 		StringBuffer message = new StringBuffer();
-		message.append("Hello From: ");
+		message.append("Second Microservice Says Hello From: ");
 		try {
 
 			InetAddress localhost = InetAddress.getLocalHost();
