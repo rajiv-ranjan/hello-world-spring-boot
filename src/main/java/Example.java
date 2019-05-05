@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @EnableAutoConfiguration
 public class Example {
 
-    @RequestMapping("/springboot")
+    @RequestMapping("/hello-springboot")
     String home() {
         return "Hello World - v3!";
     }
